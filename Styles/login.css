@@ -1,0 +1,105 @@
+body {
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+    color: #666666;
+    margin: 0px;
+    padding: 20px 10px 0px;
+}
+
+.body{
+    background-image: url("../images/bgpteam.jpg");
+    background-repeat:repeat;
+}
+/*the navigation in header*/
+.container{
+    width:1080px;
+    margin:0 auto;
+    background-color: #ffffff;
+    height:auto;
+    min-height:100%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+}
+table{
+    border: 1px solid #37538C;
+    padding-bottom:20px;
+    margin-top: 150px;
+}
+.spacialtable{
+    border: 1px solid #37538C;
+    padding-bottom:20px;
+    border-spacing:0 10px;
+}
+/*table reminder centences*/
+.reminder{
+    padding-left:10px;
+    padding-right:10px;
+    background-color:#EFF1EC;
+}
+/*first line of table*/
+.tableFirst{
+    font-size: 150%;
+    color: #eaeaea;
+    font-weight:bold;
+    text-align:center;
+    background-color: #37538C;
+    border: 1px solid #CCCCCC;
+    padding-left: 1px;
+
+}
+/*input field*/
+.textfield {
+    font-size: 11px;
+    color: #333333;
+    background: #F7F7F7;
+    border: 1px solid #CCCCCC;
+    padding-left: 1px;
+}
+/*fail warning*/
+h1 {
+    text-align:center;
+    color: red;
+    margin: 0px 0px 5px;
+    padding: 0px 0px 10px;
+    font: bold 18px Verdana, Arial, Helvetica, sans-serif;
+    border-bottom: 1px dashed #E6E8ED;
+}
+/*goback home page link*/
+a {
+    color: #2D3954;
+    font-size: 130%;
+    font-weight:bold;
+    text-decoration:none;
+    display: inline-block;
+}
+
+a:hover {
+    color: #99CC00;
+}
+
+.link_div{
+    text-align: center;
+    width:350px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    margin-bottom:0px;
+}
+
+#error_para{
+    display: block;
+    color:red;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    text-align: center;
+}
+/*table header*/
+th {
+    font-weight: bold;
+    text-align: left;
+    padding-left:20px;
+
+}
